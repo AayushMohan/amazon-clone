@@ -43,7 +43,7 @@ const Header = () => {
           </div>
 
           <div className="relative link flex items-center">
-            <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 rounded-full text-center font-bold">
+            <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-amber-600 rounded-full text-center font-bold">
               0
             </span>
             <ShoppingCartIcon className="h-10" />
@@ -52,9 +52,26 @@ const Header = () => {
             </p>
           </div>
         </div>
-
-        {/* Bottom Nav */}
-        <div></div>
+      </div>
+      {/* Bottom Nav */}
+      <div className="flex items-center space-x-6 font-medium p-2 pl-6 bg-amazon_blue-light text-white text-sm">
+        <p className="link flex items-center font-bold">
+          <MenuIcon className="h-6 mr-1" />
+          All
+        </p>
+        <p className="link">Prime Video</p>
+        <p className="link">Best Sellers</p>
+        <p className="link">Today's Deal</p>
+        <p className="link hidden lg:inline-flex">Mobiles</p>
+        <p className="link hidden lg:inline-flex">Electronics</p>
+        <p className="link hidden lg:inline-flex">Books</p>
+        <p className="link hidden lg:inline-flex">Prime</p>
+        <p className="link hidden lg:inline-flex">Buy Again</p>
+        <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
+        <p className="link hidden lg:inline-flex">Health & Personal Care</p>
+        <p className="link hidden lg:inline-flex">Fashion</p>
+        <p className="link hidden lg:inline-flex">Home & Kitchen</p>
+        <p className="link hidden lg:inline-flex">Sell</p>
       </div>
     </header>
   );
