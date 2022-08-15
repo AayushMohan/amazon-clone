@@ -6,7 +6,7 @@ import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="bg-gray-100">
       <Head>
         <title>Amazon Clone</title>
         <link rel="icon" href="/favicon.ico" />
